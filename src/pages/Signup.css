@@ -1,0 +1,98 @@
+.signup-background {
+  background-image: url('../assets/images/home-back.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* صندوق النموذج البيج (يظهر بمنتصف الشاشة تماماً وبشكل منفصل) */
+.signup-card {
+  background-color:white;
+  padding: 40px;
+  border-radius: 16px;
+  width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+/* تنسيق العنوان */
+.signup-card h1 {
+  font-size: 26px;
+  color: #03476d;
+  margin-bottom: 8px;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* النص الفرعي */
+.signup-card  p {
+  color: #03476d;
+  font-size: 14px;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+/* تنسيق النموذج */
+.signup-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* حقول الإدخال */
+.signup-card input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  background-color: #fff;
+}
+
+.signup-card input:focus {
+  border-color: #888;
+}
+
+/* زر إنشاء الحساب */
+.signup-card button {
+  padding: 12px;
+  background-color:#03476d;
+  border: 1px solid #d0ccc4;
+  border-radius: 25px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: background-color 0.2s;
+}
+
+.signup-card button:hover {
+  background-color: #a4cce3;
+}
+
+/* رابط تسجيل الدخول */
+.signup-card p:last-of-type {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #666;
+  text-align: left;
+}
+
+.signup-card p:last-of-type a {
+  color: #333;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.signup-card,signup-text,
+.signup-card p:last-of-type{
+  margin-top: 20px;
+  text-align: center;
+
+}

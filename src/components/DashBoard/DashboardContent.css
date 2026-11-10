@@ -1,0 +1,41 @@
+.mySection {
+margin-left: 220px;
+margin-top: 80px;
+width: calc(100% - 220px);
+min-height: calc(100vh - 80px);
+box-sizing: border-box;
+background-image: url("../../assets/images/home-back.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding: 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+border-radius: 100px;
+}
+.mySection h1 {
+color: #173B50;
+font-size: 32px;
+}
+.mySection p {
+color: #24445A;
+font-size: 17px;
+}
+.myButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+border: none;
+border-radius: 20px;
+padding: 12px 22px;
+background-color: #176B87;
+color: white;
+cursor: pointer;
+transition: transform 0.3s ease;
+}
+.myButton:hover {
+transform: translateY(-3px);
+}

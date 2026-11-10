@@ -2,7 +2,7 @@ import image from '../../assets/images/image2.png';
 import './Section.css';
 function Section() {
     return (
-        <div className="section" id="about">
+        <div className="section" >
             <div className="section-content">
                  <h1> Facial Recognition</h1>
                  <p>Artify AI automatically detects and groups similar faces

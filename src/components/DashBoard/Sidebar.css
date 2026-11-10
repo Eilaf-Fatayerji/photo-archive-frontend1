@@ -1,0 +1,34 @@
+.myNav{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  height:calc(100vh - 80px);
+  box-sizing: border-box;
+  width: 220px;
+  background-color: #abdaf8;
+  padding: 25px 15px;
+  margin: 0px;
+  z-index: 999;
+}
+.myNav a{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color:#24445A;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  transition: 0.3s ease;
+
+}
+.myNav ul{
+  list-style: none;
+  padding: 1px;
+}
+.myNav a:hover{
+  background-color: rgba(255,255,255,0.4);
+  transform: translateX(5px);
+}

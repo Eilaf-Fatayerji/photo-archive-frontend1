@@ -1,4 +1,4 @@
-import '../layout/Footer.css';
+import './Footer.css';
 function Footer() {
     return (
         <div className="footer" id="contact">

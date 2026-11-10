@@ -1,0 +1,12 @@
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+.dashboard-main {
+ margin-left: 220px;
+ width: calc(100%-220px);
+ min-width: 0;
+ box-sizing: border-box;
+
+}
