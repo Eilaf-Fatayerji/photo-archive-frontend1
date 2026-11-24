@@ -3,7 +3,7 @@
  function DashboardContent()
 {
     return(
-        <div className="mySection">
+        <div className="mySection" id="Home">
             <h1>Welcom To Artify AI</h1>
             <p>Your smart photo library,all in one place.</p>
             <button className="myButton" type="button"> <Upload size={18}/>
